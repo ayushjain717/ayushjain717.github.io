@@ -1,0 +1,67 @@
+body {background-image: url("wall_home.jpg");
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+	background-repeat: no-repeat;}
+	
+.box1 {position: relative;}
+
+/*Font for Introhead*/
+@font-face {
+  font-family: "Edwardian Script ITC";
+  src: url("ITCEDSCR.TTF") format("truetype");}
+
+/*Center image*/	
+.profile {border-radius : 48%;
+	height : 30vw;
+	width : 25vw;
+	margin-left: 35%;
+	margin-top : 5%;
+	box-shadow : 1px 5px #001100;}
+.profile:hover {box-shadow: 0 0 25px 2px black;}
+
+/*Side links*/
+a {color: white;
+	font-weight: bold;
+	font-size: 3.5vw;}
+	
+#home {color: yellow;
+	position: absolute;
+	top: 7vw;
+	left: 83vw;
+	text-decoration: underline;}
+
+#about {position: absolute;
+	top: 16vw;
+	left: 81vw;
+	text-decoration: underline;}
+#about:hover {transform: scale(1.2);}
+
+#gallery {position: absolute;
+	top: 26vw;
+	left: 71vw;
+	text-decoration: underline;}
+#gallery:hover {transform: scale(1.2);}
+
+#contact {position: absolute;
+	top: 35vw;
+	left: 70vw;
+	text-decoration: underline;}
+#contact:hover {transform: scale(1.2);}	
+
+/*Signature Image*/
+.sign {position: absolute;
+	max-height: 28vw;
+	max-width: 28vw;
+	top: 20vw;
+	left: 3vw;}
+
+#intro {color: white;
+	position: absolute;
+	font-size: 9vw;
+	font-family: Edwardian Script ITC;
+	top: 5vw;
+	left: 1vw;}

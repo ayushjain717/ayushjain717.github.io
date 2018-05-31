@@ -1,0 +1,43 @@
+.box2 {position: relative;}
+
+/*Font for Paragraph*/
+@font-face {
+  font-family: "Times-Roman";
+  src: url("Times-Roman.otf") format("opentype");}
+
+/*Top Links*/
+#links {background-color: rgba(0,0,10,0.7);
+	width:100%;
+	height: 3vw;}
+	
+a {color: white;
+	font-weight: bold;
+	font-size: 2vw;}
+
+#home {position: absolute;
+	left: 50vw;
+	top: 0.2vw;
+	text-decoration: underline;}
+#home:hover {background-color: yellow;
+			color: red;
+			padding: 2px;
+			text-decoration: none;}	
+
+#about {position: absolute;
+	left: 59vw;
+	top: 0.2vw;
+	text-decoration: underline;}
+
+#gallery {position: absolute;
+	left: 69vw;
+	top: 0.2vw;
+	text-decoration: underline;}
+#gallery:hover {background-color: yellow;
+			color: red;
+			padding: 2px;
+			text-decoration: none;}	
+
+#contact {position: absolute;
+	left: 85vw;
+	top: 0.2vw;
+	text-decoration: underline;}
